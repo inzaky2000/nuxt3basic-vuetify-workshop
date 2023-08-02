@@ -12,7 +12,13 @@
             }
         ]
     })
+    // อ่านข้อมูลจาก API ด้วย useFetch
+    // const { data: products, refresh, pending } = await useFetch('https://www.itgenius.co.th/sanbox_api/mrta_flutter_api/public/api/news')
+    // console.log(products)
+
+
 </script>
+
 
 <template>
     <div class="mb-5">
