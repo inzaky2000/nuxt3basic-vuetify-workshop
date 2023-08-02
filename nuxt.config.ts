@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   ssr: true,
   routeRules: {
-    '/backend/**': {ssr: false},
+    '/backend/**': {ssr: true},
   },
   build: {
     transpile: ["vuetify"],
