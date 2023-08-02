@@ -10,4 +10,27 @@ export default defineNuxtConfig({
       "process.env.DEBUG": false,
     },
   },
+  app: {
+    head: {
+      htmlAttrs: {
+        lang: 'en'
+      },
+      bodyAttrs: {
+        class: 'demo'
+      },
+      charset: 'utf-8',
+      titleTemplate: '%s - Nuxt 3 Vuetify',
+      meta: [
+        { 
+          name: 'viewport', 
+          content: 'width=device-width, initial-scale=1, maximum-scale=5'
+        },
+        {
+          name: 'author',
+          content: "IT Genius Engineering Ltd., Thailand"
+        },
+      ]
+    }
+  },
+
 });
