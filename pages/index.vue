@@ -21,7 +21,7 @@
         <v-col cols="12" md="7" lg="6" class="d-block d-lg-flex align-center">
           <div class="text-center text-md-left">
             <h1 class="banner-title font-weight-bold text-white">
-              เว็บไซต์ที่สร้างด้วย Nuxt
+              ค้นหาผู้ผ่านการฝึกอาชีพ <br>ในพื้นที่ใกล้เคียง
             </h1>
             <h4 class="banner-subtitle text-white font-weight-regular">
               สร้างด้วย Nuxt 3 กับ Vuetify 3 สำหรับเนื้อหาประเทภบล็อกและบทความ

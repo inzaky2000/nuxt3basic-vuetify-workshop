@@ -21,14 +21,16 @@ onMounted(() => {
         </div>
         <v-spacer></v-spacer>
         <div class="ml-auto">
-          <v-select
+          <client-only>
+            <v-select
             aria-atomic="true"
             v-model="select"
             :items="items"
             variant="outlined"
             density="compact"
             hide-details
-          ></v-select>
+          ></v-select>     
+          </client-only>
         </div>
       </div>
       <div v-if="elementVisible">
