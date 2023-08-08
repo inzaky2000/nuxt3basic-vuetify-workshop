@@ -34,7 +34,7 @@
                 href="https://www.itgenius.co.th"
                 elevation="0"
               >
-                เริ่มต้นใช้งาน
+                ค้นหา
               </v-btn>
             </div>
           </div>

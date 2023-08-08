@@ -5,7 +5,7 @@ export default [
       to: "/backend/dashboard",
     },
     {
-      title: "Products",
+      title: "ผู้ผ่านการฝึก Products",
       icon: "mdi-storefront-outline",
       to: "/backend/product",
     },

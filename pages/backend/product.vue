@@ -26,7 +26,6 @@
 <template>
   <div>
     <h1>ผู้ผ่านการฝึกอบรม ประจำปี 2566</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat error eos excepturi, explicabo nesciunt repudiandae aperiam qui maxime sunt earum, officia sequi eius. Accusamus repellendus dolor veniam facilis cumque cupiditate!</p>
     <div>
         <v-container>
           <v-row class="mt-13" justify="center">
@@ -34,19 +33,25 @@
               <v-card elevation="0" class="blog-card overflow-hidden mb-5">
                 <div class="position-relative mb-5">
                   <a href="#">
-                    <v-img src="/images/blog/img1.jpg"
+                    <v-img :src="product.img"
                       alt="blog"
                       class="blog-img"
                     />
                   </a>
                   <div class="date-badge bg-info-grediant">
-                    Oct <span>23</span>
+                    อายุ <span>23</span>
                   </div>
                 </div>
                 <div class="pa-5">
                     <v-card-title>
                       {{ product.fullname }}
                     </v-card-title>
+                  <p class="mt-5 mb-5">
+                    ชื่อเล่น : {{ product.nickname }}
+                  </p>
+                  <p class="mt-5 mb-5">
+                    ที่อยู่ : {{ product.addr }}
+                  </p>
                   <p class="mt-10 mb-10">
                     Business Park, Opp. Corns Sam Restaurant, New Yoark, US
                   </p>
