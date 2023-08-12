@@ -20,7 +20,7 @@
     // console.log(products)
     const { data: products,refresh } = await useFetch('http://localhost:4000/api/users')
     console.log(products)
-
+    // http://localhost:4000/api/users
 </script>
 
 <template>
