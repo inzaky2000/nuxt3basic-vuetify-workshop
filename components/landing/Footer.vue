@@ -3,30 +3,30 @@
         <v-container>
             <v-row class="py-0">
                 <v-col cols="12" sm="6" md="6" lg="3" class="px-0">
-                    <h4 class="font-weight-bold font-18 mt-5">Address</h4>
-                    <p class="mt-2 mb-0">3/499 Ladprao Wanghin 68 Bangkok 10230</p>
+                    <h4 class="font-weight-bold font-18 mt-5">ที่อยู่</h4>
+                    <p class="mt-2 mb-0">318 ศูนย์ราชการจังหวัดชายแดนภาคใต้ <br/> ถนนสิโรรส ตำบลสะเตง อำเภอเมือง <br> จังหวัดยะลา 95000</p>
                 </v-col>
                 <v-col cols="12" sm="6" md="6" lg="3" class="px-0">
                     <h4 class="font-weight-bold font-18 mt-5">Phone</h4>
-                    <p class="mt-2 mb-0">Reception : +66 02 570-8449</p>
-                    <p>Office : +66 02 570-8449</p>
+                    <p class="mt-2 mb-0">Reception : +66 07 3257-009</p>
+                    <p>Office :  +66 07 3257-009</p>
                 </v-col>
                 <v-col cols="12" sm="6" md="6" lg="3" class="px-0">
                     <h4 class="font-weight-bold font-18 mt-5">Email</h4>
                     <p class="mt-2 mb-0">
-                    Office : <a class="dark-link" href="/">contact@itgenius.co.th</a>
+                    Office : <a class="dark-link" href="/">mybabore@gmail.com</a>
                     </p>
                     <p>
                     Site :
-                    <a class="dark-link" href="https://www.itgenius.co.th/"
-                        >itgenius.co.th</a
+                    <a class="dark-link" href="https://www.sbpac.go.th/"
+                        >sbpac.go.th</a
                     >
                     </p>
                 </v-col>
                 <v-col cols="12" sm="6" md="6" lg="3" class="px-0">
                     <h4 class="font-weight-bold font-18 mt-5">Social</h4>
                     <div class="social-icons mt-2">
-                        <a href="#" class="ml-0">
+                        <a href="https://www.facebook.com/profile.php?id=100043731037058" class="ml-0">
                             <v-icon icon="mdi mdi-facebook" size="24"></v-icon>
                         </a>
                         <a href="#">

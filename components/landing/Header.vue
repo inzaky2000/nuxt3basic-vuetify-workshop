@@ -22,12 +22,12 @@ const headerMenu = ref(headerItems);
         @click="drawer = !drawer"
         class="d-block d-sm-none"
       ></v-app-bar-nav-icon>
-      <NuxtLink to="/" class="d-block d-lg-none brand ml-8">NuxtPress</NuxtLink>
+      <NuxtLink to="/" class="d-block d-lg-none brand ml-8">ระบบฐานข้อมูลโครงการส่งเสริมอาชีพกลุ่มเปราะบาง </NuxtLink>
       <v-container>
         <v-row>
           <v-col class="d-none d-lg-block" sm="12" md="12" lg="4">
             <v-toolbar-title>
-              <NuxtLink to="/" class="d-flex brand mt-2">NuxtPress</NuxtLink>
+              <NuxtLink to="/" class="d-flex brand mt-2">ระบบฐานข้อมูลโครงการส่งเสริมอาชีพ<br/>กลุ่มเปราะบาง</NuxtLink>
             </v-toolbar-title>
           </v-col>
 

@@ -22,12 +22,12 @@ const { mdAndUp, mdAndDown } = useDisplay()
       <!---Header -->
       <!-- ---------------------------------------------- -->
       <v-app-bar elevation="0" color="primary">
+        <v-app-bar-nav-icon class="" @click="drawer = !drawer" />
         <div class="pe-5">
           <NuxtLink to="/backend/dashboard" class="d-flex brand">
-            NuxtPress
+            โครงการส่งเสริมอาชีพกลุ่มเปราะบาง
           </NuxtLink>
         </div>
-        <v-app-bar-nav-icon class="" @click="drawer = !drawer" />
         <v-spacer />
         <!-- ---------------------------------------------- -->
         <!-- User Profile -->

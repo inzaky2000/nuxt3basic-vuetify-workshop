@@ -29,22 +29,25 @@
     <div>
         <v-container>
           <v-row class="mt-13" justify="center">
-            <v-col cols="12" md="6" lg="4" v-for="(product, index) in products" :key="index">
+            <v-col cols="10" md="6" lg="4" v-for="(product, index) in products" :key="index">
               <v-card elevation="0" class="blog-card overflow-hidden mb-5">
                 <div class="position-relative mb-5">
+                  <!-- {{ product.id }} -->
                   <a href="#">
-                    <v-img :src="product.img"
-                      alt="blog"
-                      class="blog-img"
+                    <v-img 
+                      :src="product.img"
+                      alt="product"
+                      height="150"
+                      class="bg-grey-lighten-2"
                     />
                   </a>
                   <div class="date-badge bg-info-grediant">
                     อายุ <span>23</span>
                   </div>
                 </div>
-                <div class="pa-5">
+                <div class="pa-3">
                     <v-card-title>
-                      {{ product.fullname }}
+                      {{ product.id }} : {{ product.fullname }}
                     </v-card-title>
                   <p class="mt-5 mb-5">
                     ชื่อเล่น : {{ product.nickname }}
@@ -53,7 +56,7 @@
                     ที่อยู่ : {{ product.addr }}
                   </p>
                   <p class="mt-10 mb-10">
-                    Business Park, Opp. Corns Sam Restaurant, New Yoark, US
+                    เป้าหมายการทำงาน : " {{ product.goal }} "
                   </p>
                   <a
                     href="#"
@@ -65,7 +68,7 @@
                       align-center
                     "
                   >
-                    อ่านต่อ  &nbsp; <i class="mdi mdi-arrow-right"></i>
+                    ข้อมูลเพิ่มเติม  &nbsp; <i class="mdi mdi-arrow-right"></i>
                   </a>
                 </div>
               </v-card>

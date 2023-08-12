@@ -24,14 +24,14 @@
               ค้นหาผู้ผ่านการฝึกอาชีพ <br>ในพื้นที่ใกล้เคียง
             </h1>
             <h4 class="banner-subtitle text-white font-weight-regular">
-              สร้างด้วย Nuxt 3 กับ Vuetify 3 สำหรับเนื้อหาประเทภบล็อกและบทความ
+              สร้างงานในพื้นที่ด้วยการให้โอกาสแก่ผู้ผ่านการฝึกอาชีพจากโครงการศูนย์ฝึกอาชีพพระราชทาน
             </h4>
             <div class="mt-8 pt-2">
               <v-btn
                 color="success"
                 class="btn-custom-lg"
                 target="_blank"
-                href="https://www.itgenius.co.th"
+                href="https://www.sbpac.go.th"
                 elevation="0"
               >
                 ค้นหา
@@ -53,7 +53,7 @@
   <v-row justify="center">
       <v-col cols="12" sm="10" md="9" lg="7">
         <div class="text-center my-10">
-          <h2 class="ui-title font-weight-bold mb-4">Nuxt Press</h2>
+          <h2 class="ui-title font-weight-bold mb-4">เสียงตอบรับ</h2>
           <p>
             Here you can check Demos we created you can easily use it. Its
             quite easy to Create your own dream website & dashboard in
@@ -79,24 +79,22 @@
                 text-white
               "
             >
-              ONE BILLON PEOPLE USE FACEBOOK
+              ความเป็นมาของโครงการ
             </h2>
             <p class="text-white op-8 font-weight-regular">
-              Pellentesque vehicula eros a dui pretium ornare. Phasellus
-              congue vel quam nec luctus.In accumsan at eros in dignissim.
-              Cras sodales nisi nonn accumsan.
+              ศอ.บต. ร่วมกับหน่วยงานในพื้นที่ดำเนินโครงการฝึกอาชีพในศูนย์ฝึกอาชีพพระราชทานจังหวัดชายแดนภาคใต้ เพื่อเปิดโอกาสให้กลุ่มเปราะบางที่ด้อยโอกาส อยู่นอกระบบการศึกษา และมีฐานะยากจน เข้ารับการฝึกอาชีพ เพื่อให้เกิดทักษะความรู้ เสริมสร้างทักษะอาชีพได้ ยกระดับคุณภาพชีวิตให้กับกลุ่มเปราะบาง (คนยากจน ผู้พ้นโทษ ผู้พิการ (ที่สามารถฝึกงานได้)) ในพื้นที่จังหวัดชายแดนภาคใต้ มีทักษะ มีอาชีพ มีรายได้ สามารถเลี้ยงดูตนเอง และครอบครัวได้ 
             </p>
             <div class="mt-16 pt-2">
               <v-btn
                 nuxt
                 large
                 rounded
-                to="/"
+                to="/demo"
                 class="btn-custom-md"
                 depressed
                 elevation="0"
               >
-                Do you Need Help ?
+                อ่านต่อ>>
               </v-btn>
             </div>
           </div>
