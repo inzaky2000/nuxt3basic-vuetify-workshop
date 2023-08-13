@@ -19,14 +19,14 @@
   })
     // console.log(products)
     const { data: products,refresh } = await useFetch('http://localhost:4000/api/users')
-    console.log(products)
-    // http://localhost:4000/api/users
+    // console.log(products)
+
 </script>
 
 <template>
   <div>
     <h1>ผู้ผ่านการฝึกอบรม ประจำปี 2566</h1>
-    <div>
+        <div>
         <v-container>
           <v-row class="mt-13" justify="center">
             <v-col cols="10" md="6" lg="4" v-for="(product, index) in products" :key="index">
@@ -73,9 +73,9 @@
                 </div>
               </v-card>
             </v-col>
-          </v-row>
-      </v-container>
-    </div>
+             </v-row>
+        </v-container>
+      </div>
   </div>
 </template>
 
