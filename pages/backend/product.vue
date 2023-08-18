@@ -18,7 +18,7 @@
     ]
   })
     // console.log(products)
-    const { data: products,refresh } = await useFetch('http://localhost:4000/api/users')
+    const { data: products,pending } = await useFetch('http://localhost:4000/api/users')
     // console.log(products)
 
 </script>
@@ -28,9 +28,9 @@
     <h1>ผู้ผ่านการฝึกอบรม ประจำปี 2566</h1>
         <div>
         <v-container>
-          <v-row class="mt-13" justify="center">
+          <v-row class="mt-13" justify="center" v-if="!pending">
             <v-col cols="10" md="6" lg="4" v-for="(product, index) in products" :key="index">
-              <v-card elevation="0" class="blog-card overflow-hidden mb-5">
+              <v-card elevation="0" class="blog-card overflow-hidden mb-5" :to="`/productdetail/${product.id}`">
                 <div class="position-relative mb-5">
                   <!-- {{ product.id }} -->
                   <a href="#">
@@ -73,7 +73,8 @@
                 </div>
               </v-card>
             </v-col>
-             </v-row>
+          </v-row>
+          <div class="text-center py-10" v-else>Loading.....</div>
         </v-container>
       </div>
   </div>
