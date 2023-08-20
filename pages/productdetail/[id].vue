@@ -35,7 +35,7 @@ useHead({
             lg="4"
             v-for="(product, index) in products"
             :key="index"
-          >นักเรียนศูนย์ฝึก
+          >นักเรียนศูนย์ฝึกอาชีพพระราชทาน
           </v-col>
         </v-row>
       </div>
