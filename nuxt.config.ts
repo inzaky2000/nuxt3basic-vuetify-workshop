@@ -34,5 +34,15 @@ export default defineNuxtConfig({
         },
       ]
     }
-  }
+  },
+  modules:[
+    // [
+    //   '@nuxtjs/robots',
+    //   {
+    //     UserAgent:"*",
+    //     Disallow:"",
+    //     Sitemap:"http://a69702.sitemaphosting.com/3927666/sitemap.xml"
+    //   },
+    // ],
+  ],
 });
