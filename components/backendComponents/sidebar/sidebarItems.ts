@@ -5,22 +5,22 @@ export default [
       to: "/backend/dashboard",
     },
     {
-      title: "ผู้ผ่านการฝึก Products",
+      title: "ผู้ผ่านการฝึก",
       icon: "mdi-storefront-outline",
       to: "/backend/product",
     },
     {
-      title: "Orders",
+      title: "คิวงาน",
       icon: "mdi-cart-outline",
       to: "/backend/order",
     },
     {
-      title: "Reports",
+      title: "รายงาน",
       icon: "mdi-chart-line",
       to: "/backend/report",
     },
     {
-      title: "Settings",
+      title: "ตั้งค่า",
       icon: "mdi-cog-outline",
       to: "/backend/setting",
     },

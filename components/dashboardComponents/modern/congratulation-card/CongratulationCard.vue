@@ -5,7 +5,7 @@
     <img src="/images/users/businessmen.png" class="bg-img-1" alt="Congratulation" />
     <v-card-text>
       <h3 class="title text-h6 overlay-title font-weight-medium">
-        ยินดีต้อนรับคุณ Julia
+        ยินดีต้อนรับคุณ แอดมินเบลอ
       </h3>
       <h2 class="title text-h5 font-weight-bold d-flex align-end">
         $39,358

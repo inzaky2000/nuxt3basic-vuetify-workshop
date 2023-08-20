@@ -89,12 +89,12 @@
           <v-col cols="12" sm="12" md="12" lg="4">
             <div class="primary">
               <h2 class="detail-title font-weight-medium">
-                สถาบันไอทีจีเนียส
+                กองประสานงานโครงการอันเนื่องมาจากพระราชดำริและกิจการพิเศษ
               </h2>
-              <p class="mt-5">เลขที่ 3/449 Ladprao 68</p>
-              <p class="mb-5">info@itgenius.com</p>
-              <p class="mt-5">เลขที่ 5 Ladprao Ave.</p>
-              <p>Ladprao Road, BKK 10230</p>
+              <p class="mt-5">เลขที่ 318 ถนนสิโรรส</p>
+              <p class="mb-1">ศูนย์ราชการจังหวัดชายแดนภาคใต้</p>
+              <p class="mb-1">อำเภอเมืองยะลา, ยะลา 10230</p>
+              <p class="mt-1">mybabore@gmail.com</p>
             </div>
           </v-col>
         </v-row>

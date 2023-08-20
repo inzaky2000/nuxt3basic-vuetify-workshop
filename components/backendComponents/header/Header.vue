@@ -115,11 +115,11 @@ const userprofile = ref(profile)
                   width="90"
                 />
                 <div class="ml-4">
-                  <h4 class="font-weight-medium fs-18">Julia Roberts</h4>
+                  <h4 class="font-weight-medium fs-18">แอดมิน เบลอ</h4>
                   <span class="subtitle-2 font-weight-light">Administrator</span>
                   <div class="d-flex align-center">
                     <v-icon icon="mdi-email-outline" class="d-flex grey--text" size="16"></v-icon>
-                    <span class="subtitle-2 font-weight-light ml-1">info@itgenius.com</span>
+                    <span class="subtitle-2 font-weight-light ml-1">mybabore@gmail.com</span>
                   </div>
                 </div>
               </div>

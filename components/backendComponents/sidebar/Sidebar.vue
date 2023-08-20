@@ -18,7 +18,7 @@ const sidebarMenu = ref(sidebarItems)
           </v-avatar>
         </div>
         <div class="profile-name">
-          <h5>Julia Roberts</h5>
+          <h5>แอดมิน เบลอ</h5>
         </div>
       </div>
       <v-list class="pa-4">
