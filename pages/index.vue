@@ -38,7 +38,9 @@ useHead({
             <h4 class="banner-subtitle text-white font-weight-regular">
               สร้างงานในพื้นที่ด้วยการให้โอกาสแก่ผู้ผ่านการฝึกอาชีพจากโครงการศูนย์ฝึกอาชีพพระราชทาน
             </h4>
+            <div>อำเภอ...</div>
             <div class="mt-8 pt-2">
+              
               <v-btn
                 color="success"
                 class="btn-custom-lg"
