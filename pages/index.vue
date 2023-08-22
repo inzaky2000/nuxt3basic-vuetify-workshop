@@ -12,18 +12,18 @@ useHead({
     },
   ],
 });
-  const imageLayout = [
-    { cols: 4 },
-    {
-      cols: 8,
-      children: [{ cols: 12 }, { cols: 12 }],
-    },
-    { cols: 6 },
-    { cols: 3 },
-    { cols: 9 },
-    { cols: 4 },
-    { cols: 8 },
-  ]
+const imageLayout = [
+  { cols: 4 },
+  {
+    cols: 8,
+    children: [{ cols: 12 }, { cols: 12 }],
+  },
+  { cols: 6 },
+  { cols: 3 },
+  { cols: 9 },
+  { cols: 4 },
+  { cols: 8 },
+];
 </script>
 
 <template>
@@ -38,9 +38,14 @@ useHead({
             <h4 class="banner-subtitle text-white font-weight-regular">
               สร้างงานในพื้นที่ด้วยการให้โอกาสแก่ผู้ผ่านการฝึกอาชีพจากโครงการศูนย์ฝึกอาชีพพระราชทาน
             </h4>
-            <div>อำเภอ...</div>
+
             <div class="mt-8 pt-2">
-              
+              <v-select
+                color="white"
+                label="ระบุจังหวัด"
+                :items="['ปัตตานี', 'ยะลา', 'นราธิวาส']"
+              ></v-select>
+
               <v-btn
                 color="success"
                 class="btn-custom-lg"
@@ -63,8 +68,8 @@ useHead({
       </v-row>
     </v-container>
   </div>
-<!--section 2-->
-<!-- <v-row>
+  <!--section 2-->
+  <!-- <v-row>
   <template v-for="(image,imgIdx) in imageLayout" :key="imgIdx">
       <v-col :cols="image.cols">
         <v-img
@@ -87,39 +92,41 @@ useHead({
       </v-col>
     </template>
 </v-row> -->
-<v-container grid-list-xs>
-  <v-row>
-    <v-col>
-      <div>
-    <p class="text-high-emphasis">
-      High-emphasis has an opacity of 87% in light theme and 100% in dark.
-    </p>
-    <p class="text-medium-emphasis">
-      Medium-emphasis text and hint text have opacities of 60% in light theme and 70% in dark.
-    </p>
-    <p class="text-disabled">
-      Disabled text has an opacity of 38% in light theme and 50% in dark.
-    </p>
-  </div>
-    </v-col>
-    <v-col>
-      <div>
-    <p class="text-high-emphasis">
-      High-emphasis has an opacity of 87% in light theme and 100% in dark.
-    </p>
-    <p class="text-medium-emphasis">
-      Medium-emphasis text and hint text have opacities of 60% in light theme and 70% in dark.
-    </p>
-    <p class="text-disabled">
-      Disabled text has an opacity of 38% in light theme and 50% in dark.
-    </p>
-  </div>
-    </v-col>
-  </v-row>
-</v-container>
+  <v-container grid-list-xs>
+    <v-row>
+      <v-col>
+        <div>
+          <v-parallax
+            height="300"
+            src="/images/landingpage/LINE_ALBUM_54.jpg"
+          ></v-parallax>
+        </div>
+      </v-col>
+      <v-col>
+        <div>
+          <p class="text-high-emphasis">
+            ศอ.บต.
+            ร่วมกับหน่วยงานในพื้นที่ดำเนินโครงการฝึกอาชีพในศูนย์ฝึกอาชีพพระราชทานจังหวัดชายแดนภาคใต้
+            เพื่อเปิดโอกาสให้กลุ่มเปราะบางที่ด้อยโอกาส อยู่นอกระบบการศึกษา
+            และมีฐานะยากจน เข้ารับการฝึกอาชีพ เพื่อให้เกิดทักษะความรู้
+            เสริมสร้างทักษะอาชีพได้ ยกระดับคุณภาพชีวิตให้กับกลุ่มเปราะบาง
+          </p>
+          <p class="text-medium-emphasis">
+            (คนยากจน ผู้พ้นโทษ ผู้พิการ (ที่สามารถฝึกงานได้))
+            ในพื้นที่จังหวัดชายแดนภาคใต้ มีทักษะ มีอาชีพ มีรายได้
+            สามารถเลี้ยงดูตนเอง และครอบครัวได้ โดยเปิดฝึกตั้งแต่ พ.ศ. 2558 -
+            ปัจจุบัน ดำเนินการฝึกอาชีพปีละ 2 รุ่น มีผู้สำเร็จการฝึกอาชีพ
+            รวมทั้งสิ้น 1,326 ราย มีผู้สำเร็จการฝึกอาชีพและมีงานทำ จำนวน 570 ราย
+            คิดเป็นร้อยละ 42.99 และมีผู้สำเร็จการฝึกอาชีพที่ว่างงาน จำนวน 756
+            ราย คิดเป็นร้อยละ 57.01
+          </p>
+        </div>
+      </v-col>
+    </v-row>
+  </v-container>
 
   <!--end section 2-->
-<!--section3-->
+  <!--section3-->
   <div class="banner1-component">
     <v-container>
       <v-row justify="center">
