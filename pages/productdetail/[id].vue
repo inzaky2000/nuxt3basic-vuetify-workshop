@@ -57,67 +57,72 @@ useHead({
 
     <v-container>
       <v-row dense>
-          <v-col cols="12">
-            <v-card color="#EEF5F9" theme="white">
-              <div class="d-flex flex-no-wrap justify-space-between">
-                <div>
-                  <v-card-title class="text-h5"> ประวัติส่วนตัว </v-card-title>
-  
-                  <v-card-subtitle>
-                    <p>ชื่อ : {{ product.fullname }}</p>
-                    <P>ปีเกิด : {{ product.dob }}</P>
-                    <p>อายุ : {{ product.age }}</p>
-                    <p>ส่วนสูง : {{ product.hight }}</p>
-                    <p>น้ำหนัก : {{ product.weight }}</p>
-                    <p class="mt-3 mb-2">ที่อยู่ : {{ product.addr }}</p>
-                    
-                  </v-card-subtitle>
-  
-                  <!-- <v-card-actions>
+        <v-col cols="12">
+          <v-card color="#EEF5F9" theme="white">
+            <div class="d-flex flex-no-wrap justify-space-between">
+              <div>
+                <v-card-title class="text-h5"> ประวัติส่วนตัว </v-card-title>
+
+                <v-card-subtitle>
+                  <p>ชื่อ : {{ product.fullname }}</p>
+                  <P>ปีเกิด : {{ product.dob }}</P>
+                  <p>อายุ : {{ product.age }}</p>
+                  <p>ส่วนสูง : {{ product.hight }}</p>
+                  <p>น้ำหนัก : {{ product.weight }}</p>
+                  <p class="mt-3 mb-2">ที่อยู่ : {{ product.addr }}</p>
+                </v-card-subtitle>
+                <v-divider></v-divider>
+
+                <v-card-title class="text-h5"> สถานะภาพการทำงาน : </v-card-title>
+                  <v-chip class="ma-2" color="pink" label text-color="white">
+                    <v-icon start icon="mdi-label"></v-icon>
+                    {{ product.status }}
+                  </v-chip>
+
+                <!-- <v-card-actions>
                     <v-btn class="ms-2" icon="mdi-play" variant="text"></v-btn>
                   </v-card-actions> -->
-                </div>
-  
-                <v-avatar class="ma-3" size="225" rounded="0">
-                  <v-img :src="product.img"></v-img>
-                  <!-- <v-img :src="product.img" alt="product" height="150" /> -->
-                </v-avatar>
-                <v-divider></v-divider>
               </div>
-            </v-card>
-          </v-col>
 
-
-        <v-col cols="12">
-            <v-card color="#EEF5F9" theme="white">
-            <v-card-title class="text-h5"> ประสบการณ์การทำงาน </v-card-title>
-                
-            <v-card-subtitle>
-                <p class="mb-3"> : {{ product.hist_work }}</p>
-            </v-card-subtitle>
-
-            <v-card-title class="text-h5"> จุดเด่นของตัวเอง </v-card-title>
-                
-                <v-card-subtitle>
-                    <p class="mb-3"> : {{ product.strong }}</p>
-                </v-card-subtitle>
-
-                <v-card-title class="text-h5"> เป้าหมายการทำงาน </v-card-title>
-                <v-card-subtitle>
-                    <p class="mb-3"> : {{ product.goal }}</p>
-                </v-card-subtitle>
+              <v-avatar class="ma-3" size="225" rounded="0">
+                <v-img :src="product.img"></v-img>
+                <!-- <v-img :src="product.img" alt="product" height="150" /> -->
+              </v-avatar>
+              <v-divider></v-divider>
+            </div>
           </v-card>
         </v-col>
 
         <v-col cols="12">
-            <v-card color="#EEF5F9" theme="white">
+          <v-card color="#EEF5F9" theme="white">
+            <v-card-title class="text-h5"> ประสบการณ์การทำงาน </v-card-title>
+
+            <v-card-subtitle>
+              <p class="mb-3">: {{ product.hist_work }}</p>
+            </v-card-subtitle>
+
+            <v-card-title class="text-h5"> จุดเด่นของตัวเอง </v-card-title>
+
+            <v-card-subtitle>
+              <p class="mb-3">: {{ product.strong }}</p>
+            </v-card-subtitle>
+
+            <v-card-title class="text-h5"> เป้าหมายการทำงาน </v-card-title>
+            <v-card-subtitle>
+              <p class="mb-3">: {{ product.goal }}</p>
+            </v-card-subtitle>
+          </v-card>
+        </v-col>
+
+        <v-col cols="12">
+          <v-card color="#EEF5F9" theme="white">
             <div class="d-flex flex-no-wrap justify-space-between">
               <div>
-                <v-card-title class="text-h5 ">
+                <v-card-title class="text-h5">
                   ทักษะ และความสามารถ
                 </v-card-title>
 
-                <v-card-subtitle class="mb-3 ">
+                <v-card-subtitle class="mb-3">
                   <p>ทักษะด้านคอมพิวเตอร์ [word] : {{ product.skill_word }}</p>
                   <p>ทักษะด้านคอมพิวเตอร์ [excel] : {{ product.skill_xls }}</p>
                   <p>
@@ -135,34 +140,26 @@ useHead({
                   src="https://cdn.vuetifyjs.com/images/cards/foster.jpg"
                 ></v-img>
               </v-avatar>
-
             </div>
             <v-card-actions>
-              <v-btn to="../backend/dashboard/" variant="text"> กลับหน้า Dashboard </v-btn>
+              <v-btn to="../backend/dashboard/" variant="text">
+                กลับหน้า Dashboard
+              </v-btn>
               <v-spacer></v-spacer>
               <v-btn-group>
                 <v-btn
-          :ripple="false"
-          height="72"
-          min-width="164"
-          color="primary"
-        >
-        แก้ไข
-        </v-btn>
-        <v-btn
-          height="72"
-          min-width="164"
-          color="red"
-
-        >
-          ลบ
-        </v-btn>
+                  :ripple="false"
+                  height="72"
+                  min-width="164"
+                  color="primary"
+                >
+                  แก้ไข
+                </v-btn>
+                <v-btn height="72" min-width="164" color="red"> ลบ </v-btn>
               </v-btn-group>
             </v-card-actions>
-            
-        </v-card>
+          </v-card>
         </v-col>
-
       </v-row>
     </v-container>
   </v-card>
