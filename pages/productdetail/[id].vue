@@ -82,6 +82,7 @@ useHead({
                   <v-img :src="product.img"></v-img>
                   <!-- <v-img :src="product.img" alt="product" height="150" /> -->
                 </v-avatar>
+                <v-divider></v-divider>
               </div>
             </v-card>
           </v-col>
@@ -138,6 +139,25 @@ useHead({
             </div>
             <v-card-actions>
               <v-btn to="../backend/dashboard/" variant="text"> กลับหน้า Dashboard </v-btn>
+              <v-spacer></v-spacer>
+              <v-btn-group>
+                <v-btn
+          :ripple="false"
+          height="72"
+          min-width="164"
+          color="primary"
+        >
+        แก้ไข
+        </v-btn>
+        <v-btn
+          height="72"
+          min-width="164"
+          color="red"
+
+        >
+          ลบ
+        </v-btn>
+              </v-btn-group>
             </v-card-actions>
             
         </v-card>
